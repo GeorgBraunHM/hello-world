@@ -25,11 +25,9 @@ for(i=0; i<10; i++) printf("%d", i);
 ```
 
 Und wie schaut C# aus?
-Aber vorher noch etwas `inline code` zum Anschauen.
+Aber vorher noch etwas `inline code` zum Anschauen. Die Frage ist, wie sich der inline code mit neuen Zeilen verträgt. Dafür muss der Text aber lang genug sein, damit er mehr als eine Zeile beansprucht. Ich hoffe, das reicht.
 
-Die Frage ist, wie sich der inline code mit neuen Zeilen verträgt.
-
-Den C#-Code machen wir jetzt etwas kürzer:
+Den C#-Code machen wir jetzt noch etwas kürzer:
 
 ```cs
 using System;
@@ -60,19 +58,6 @@ class Program:HMGuiApp {
   // Platz für Ihre eigenen Funktionen:
 
   //Funktion: MuPwl()
-  // Was soll die Funktion machen:
-  //   Wachstum über Geraden-Näherung berechnen
-  //   (Pwl: Piece wise linear), 
-  //   vorausgesetzt es ist Substratmasse vorhanden.
-  // Welche Parameter benötigt sie:
-  //   SM:    Substratmasse SM in g als Kommazahl,
-  //   mumax: Max. Wachstumsrate in 1/min als Kommazahl
-  //   Die Eckpunkte der Geradenstücke werden in der Funktion definiert.
-  // Welchen Datentyp gibt sie zurück: 
-  //   Die Wachstumsrate in 1/min als Kommazahl
-  // Beispiel für Funktionsaufruf:
-  //   mu = MuPwl(SM, 0.035);
-  // Funktionsdefinition (Schnittstelle und Rumpf):
   static double MuPwl(double SM, double mumax) {
                // SM: Substratmasse in g
                // mumax: max. Wachstumsrate in 1/min
