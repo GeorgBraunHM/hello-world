@@ -25,6 +25,7 @@ for(i=0; i<10; i++) printf("%d", i);
 ```
 
 Und wie schaut C# aus?
+Aber vorher noch etwas `inline code` zum Anschauen.
 
 ```cs
 using System;
